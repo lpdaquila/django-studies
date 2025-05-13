@@ -3,3 +3,9 @@
 {% block text %}
   {{ text }}
 {% endblock text %}
+
+{% block posts %}
+  {% for post in posts %}
+    {% include "global/partials/postblock.html" %}
+  {% endfor %}
+{% endblock posts %}
