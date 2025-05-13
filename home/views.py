@@ -1,6 +1,16 @@
-from django.http import HttpResponse
+# from django.http import HttpResponse
 from django.shortcuts import render
 
 # Create your views here.
 def home(request):
-    return HttpResponse('Home1')
+    
+    context = {
+        'text': 'We are in home',
+        'title': 'Homepage | '
+    }
+    
+    return render(
+        request,
+        'home/index.html',
+        context
+    )
