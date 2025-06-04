@@ -42,8 +42,8 @@ Pipfile.lock
 # poetry
 poetry.lock
 
-# pyenv
-.python-version
+# Uv
+uv.lock
 
 # Arquivos de log
 *.log
