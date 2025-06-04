@@ -79,3 +79,7 @@ Thumbs.db
 *.env
 *.local
 .env.*
+
+# Databases
+*.sqlite3
+*.db
